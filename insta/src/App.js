@@ -1,10 +1,23 @@
 import './App.css';
-import LoginPage from './components/LoginPage/LoginPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SignIn from './components/SignIn/SignIn.js';
+import SignUp from './components/SignUp/SignUp.js';
 
 function App() {
   return (
     <div className="App">
-      <LoginPage />
+        <Router>
+        
+        <Routes>
+          <Route exact path='/' element={<SignIn />} />
+          
+          <Route exact path='/signup' element ={<SignUp />} />
+
+         
+          
+        </Routes>
+
+      </Router>
     </div>
   );
 }

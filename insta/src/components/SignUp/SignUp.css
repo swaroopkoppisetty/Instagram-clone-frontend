@@ -1,26 +1,39 @@
 body{
     background-color: #fafafa;
 }
-.loginPage{
+.signUp{
     display: flex;
 
 }
-.logo{
-    width: 175px;
-    margin-top: 25px;
-}
-.main{
-    height: 380px;
+.signUp_main{
+    height: 550px;
     width: 350px;
     border: 1px solid #dbdbdb;
     margin-top: 30px;
     text-align: center;
     background-color: white;
 }
-.signIn{
+
+.signUp_logo{
+    width: 175px;
     margin-top: 25px;
 }
-.text{
+
+.signUp_logo_down_text{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 40px 10px;
+    text-align: center;
+}
+
+
+
+.signUp_form{
+    margin-top: 25px;
+}
+.signUp_text{
     width: 258px;
     height: 38px;
     margin: 5px;
@@ -29,7 +42,7 @@ body{
     padding-left: 9px;
     border-radius: 5px;
 }
-.button{
+.signUp_button{
     width: 268px;
     height: 30px;
     margin: 8px;
@@ -40,32 +53,67 @@ body{
     color: white;
     margin-bottom: 15px;
 }
-.or_div{
+.signUp_or_div{
     display: flex;
     justify-content: center;
 }
-.or_dividor{
+.signUp_or_dividor{
     width: 100px;
     height: 0px;
     margin-top: 10px;
     border: 0.5px solid #dbdbdb;
     background-color: #dbdbdb;
 }
-.or{
+.signUp_or{
     margin: 0px 20px;
     font-weight: bold;
     color: #8e8e8e;
     font-size: 13px;
 }
-.fb{
+.signUp_fb{
     color:#385185;
     font-weight: bold;
     margin-top: 30px;
 }
-.forgot{
+.signUp_forgot{
     color: rgba(var(--fe0,0,55,107),1);
     font-size: 12px;
     line-height: 16px;
     margin-top: 12px;
     text-align: center;
+}
+.logIn_section{
+    margin-top: 30px;
+    width: 350px;
+    height: 55px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    text-align: center;
+}
+.signUp_login{
+    text-align: center;
+}
+.signUp_policy_text{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 12px;
+    line-height: 16px;
+    margin: 5px 40px;
+    text-align: center;
+}
+.signUp_login{
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+}
+.signUp_option{
+
+}
+.signUp_app{
+    margin-top: 20px;
+}
+.signUp_img{
+    
+    margin: 5px;
+    margin-top: 20px;
 }
